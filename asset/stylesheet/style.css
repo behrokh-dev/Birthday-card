@@ -1,0 +1,134 @@
+*, *&::after, *&::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/photo-morning-rose.jpg);
+    background-size: cover;
+    background-position: 50% 50% ;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 100px auto;
+    perspective: 1200px;
+    >*{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &:hover{
+        >.front{
+            transform: rotateX(180deg);
+        }
+        >.back{
+            transform: rotateX(360deg);
+        }
+    }
+    >.front{
+        width: 80%;
+        height: 80%;
+        border: 10px solid rgba(255, 255, 255, 0.275);
+        background-color: rgba(0, 0, 0, 0.434);
+        color: white;
+        top: 10%;left: 10%;
+        transition: 1.5s;
+        z-index: 1000;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        >p{
+            font-size: 70px;
+            user-select: none;
+        }
+    }
+    >.back{
+        width: 80%;
+        height: 80%;
+        border: 10px solid rgba(255, 255, 255, 0.275);
+        background-color: rgba(0, 0, 0, 0.434);
+        color: white;
+        top: 10%;left: 10%;
+        transition: 1.5s;
+        z-index: 10001;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        transform: rotateX(180deg);
+        >p{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            user-select: none;
+        }
+    }
+}
+.footer{
+    width: 100%;
+    min-height: 50vh;
+    background-color:rgb(135, 192, 193) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        >.pic{
+            width: 320px;
+            height: 320px;
+            background-color: rgb(110, 45, 58);
+            border-radius: 64% 36% 47% 53% / 32% 22% 78% 68% ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: .5s;
+            &:hover{
+                transform: scale(1.1);
+            }
+            >figure{
+                width: 300px;
+                height: 300px;
+                >img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+                }
+            }
+        }
+        >.links{
+            /* border: 1px solid red; */
+            width: 100px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            gap: 7px;
+            >a{
+                text-decoration: none;
+                font-size: 40px;
+                color: rgb(159, 44, 67);
+                transition: .3s;
+                &:hover{
+                    color: antiquewhite;
+                    font-size: 50px;
+                }
+            }
+        }
+        >.text{
+            /* border: 1px solid blue; */
+            color:rgb(120, 31, 49);
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+        }
+    }
+}
