@@ -25,6 +25,7 @@ You can see the live demo here:
 ## 📝 How It Works
 
 The card displays a birthday message like:
+![Image](https://github.com/user-attachments/assets/caa9c81c-f753-4254-a4e5-dd849a3cfe74)
 
 ---
 
