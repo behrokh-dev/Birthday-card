@@ -1,6 +1,6 @@
 # 🎉 Birthday Card
 
-A simple and elegant **digital birthday card** made with basic HTML/CSS/JS.
+A simple and elegant **digital birthday card** made with basic HTML/CSS.
 
 This project displays a heartfelt birthday message and a personalized greeting on a standalone page — perfect for sharing via link with someone special.
 
