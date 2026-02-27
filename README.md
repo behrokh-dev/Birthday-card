@@ -47,7 +47,7 @@ You can personalize the card by editing the text inside `index.html`. For exampl
 
 ## 👩‍💻 Developed With
 
-This project is built using **HTML**, **CSS**, and optionally simple JavaScript for further enhancements.
+This project is built using **HTML**, **CSS**, for further enhancements.
 
 ---
 
