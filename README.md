@@ -11,8 +11,6 @@ This project displays a heartfelt birthday message and a personalized greeting o
 You can see the live demo here:  
 🔗 https://behrokh-dev.github.io/Birthday-card/
 
-> The card shows a celebratory birthday message with a personal greeting. :contentReference[oaicite:0]{index=0}
-
 ---
 
 ## 🧾 Features
