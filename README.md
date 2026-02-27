@@ -27,6 +27,7 @@ You can see the live demo here:
 The card displays a birthday message like:
 ![Image](https://github.com/user-attachments/assets/caa9c81c-f753-4254-a4e5-dd849a3cfe74)
 ![Image](https://github.com/user-attachments/assets/309bae6a-10b5-492b-b7d8-c06cd284ba7c)
+![Image](https://github.com/user-attachments/assets/8ee584ab-22e5-4304-b731-0e01ea2b7c99)
 
 ---
 
